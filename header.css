@@ -1,0 +1,80 @@
+/* Style the tab buttons */
+.tablink {
+    background-color: #1e425d;
+    color: white;
+    float: top;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33%;
+}
+
+ body{
+     background-image: url("background.jpg");
+
+ }
+
+
+
+.student_tablink {
+    background-color: #1e425d;
+    color: white;
+    float: top;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 49.5%;
+}
+
+.teacher_tablink {
+    background-color: #1e425d;
+    color: white;
+    float: top;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 49.5%;
+}
+
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #2a5d84;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+/* the header */
+.header {
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    text-align: center;
+    background: #1e425d;
+    color: white;
+    font-size: 10px;
+}
+
+/* the footer */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #1e425d;
+    color: white;
+    text-align: center;
+    height: 2.5rem;
+}
